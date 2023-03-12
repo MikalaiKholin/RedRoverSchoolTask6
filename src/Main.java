@@ -107,5 +107,17 @@ public class Main {
 
         System.out.println();
         System.out.println("=========================================");
+
+        String[][] array3 = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+
+        numberOfE = 0;
+        for (int i = 0; i < array3.length; i++){
+            for (int j = 0; j < array3[i].length; j++){
+                for (int k = 0; k < array3[i][j].length(); k++){
+                    if (array3[i][j].charAt(k) == 'е') numberOfE++;
+                }
+            }
+        }
+        System.out.println(numberOfE);
     }
 }
