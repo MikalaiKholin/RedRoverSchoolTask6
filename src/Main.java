@@ -29,8 +29,14 @@ public class Main {
                 if (min > array[i]) min = array[i];
             }
 
-            System.out.printf("Max is %d%n", min);
-            System.out.printf("Max is %d%n", Arrays.stream(array).min().getAsInt());
+            System.out.printf("Min is %d%n", min);
+            System.out.printf("Min is %d%n", Arrays.stream(array).min().getAsInt());
+
+            System.out.println("=========================================");
+
+            int arithmeticMean = sum / array.length;
+
+            System.out.printf("Arithmetic mean is %d%n", arithmeticMean);
 
             System.out.println("=========================================");
         }

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805f9944-0488-4497-8719-7b64a60f34c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +65,27 @@
       <option name="project" value="LOCAL" />
       <updated>1678654357440</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : task 2 complite">
+      <created>1678654841079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678654841079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat : task 3 complite">
+      <created>1678654900215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678654900215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : task 1 complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : task 1 complite" />
+    <MESSAGE value="feat : task 2 complite" />
+    <MESSAGE value="feat : task 3 complite" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : task 3 complite" />
   </component>
 </project>
