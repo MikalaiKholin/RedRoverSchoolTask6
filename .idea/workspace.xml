@@ -30,12 +30,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678657326545</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat : task DV1 complite">
+      <created>1678658858522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678658858522</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +158,7 @@
     <MESSAGE value="feat : task 8 complite" />
     <MESSAGE value="feat : task 9 complite" />
     <MESSAGE value="feat : task 10 complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : task 10 complite" />
+    <MESSAGE value="feat : task DV1 complite" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : task DV1 complite" />
   </component>
 </project>

@@ -139,5 +139,25 @@ public class Main {
         System.out.println(Arrays.toString(array4[2]));
 
         System.out.println("=========================================");
+
+        System.out.println('y' - 't');
+
+        String cripted =  "myyux?44|||3gz~rjfhtkkjj3htr4XjwljnI";
+        String encripted = "";
+        for (int i = 0; i < cripted.length(); i++){
+            char c =(char)(cripted.charAt(i) - 5);
+            encripted = encripted + c;
+        }
+
+        System.out.println(encripted);
+
+        cripted =  "^tz%fwj%f|jxtrj&%^tz%ini%ny&%Otns%tzw%yjfr&%Fqj}%Qjt3%Ny%nx%szrgjw%;%ns%ymj%qnxy%tk%lwtzux";
+        encripted = "";
+        for (int i = 0; i < cripted.length(); i++){
+            char c =(char)(cripted.charAt(i) - 5);
+            encripted = encripted + c;
+        }
+
+        System.out.println(encripted);
     }
 }
