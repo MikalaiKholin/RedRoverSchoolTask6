@@ -76,5 +76,15 @@ public class Main {
         System.out.printf("Number of elements is %d%n", numberOfElements);
 
         System.out.println("=========================================");
+
+        String s = "Перестановочный алгоритм быстрого действия";
+
+        for (int i = 0; i < s.length(); i++){
+            if (s.charAt(i) == 'о') System.out.print("о");
+        }
+
+        System.out.println();
+        System.out.println("=========================================");
+
     }
 }
