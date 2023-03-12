@@ -52,5 +52,18 @@ public class Main {
         }
 
         System.out.printf("Sum is %d%n", sum);
+
+        System.out.println("=========================================");
+
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < array2.length; i++){
+            for (int j = 0; j < array2[i].length; j++){
+                if (array2[i][j] > max) max = array2[i][j];
+            }
+        }
+
+        System.out.printf("Max is %d%n", max);
+
+        System.out.println("=========================================");
     }
 }
