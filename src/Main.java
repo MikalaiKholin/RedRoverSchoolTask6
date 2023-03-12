@@ -13,6 +13,16 @@ public class Main {
 
         System.out.println("=========================================");
 
+        if (array.length > 0){
+            int max = array[0];
+            for (int i = 0; i < array.length; i++){
+                if (max < array[i]) max = array[i];
+            }
 
+            System.out.printf("Max is %d%n", max);
+            System.out.printf("Max is %d%n", Arrays.stream(array).max().getAsInt());
+
+            System.out.println("=========================================");
+        }
     }
 }
