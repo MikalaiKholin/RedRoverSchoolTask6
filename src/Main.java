@@ -119,5 +119,25 @@ public class Main {
             }
         }
         System.out.println(numberOfE);
+
+        System.out.println("=========================================");
+
+        int[][] array4 = {{1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}};
+        int t = 0;
+        for (int i = 0; i < array4.length; i++){
+            for (int j = i + 1; j < array4[i].length; j++){
+                t = array4[i][j];
+                array4[i][j] = array4[j][i];
+                array4[j][i] = t;
+            }
+        }
+
+        System.out.println(Arrays.toString(array4[0]));
+        System.out.println(Arrays.toString(array4[1]));
+        System.out.println(Arrays.toString(array4[2]));
+
+        System.out.println("=========================================");
     }
 }
