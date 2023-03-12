@@ -23,6 +23,16 @@ public class Main {
             System.out.printf("Max is %d%n", Arrays.stream(array).max().getAsInt());
 
             System.out.println("=========================================");
+
+            int min = array[0];
+            for (int i = 0; i < array.length; i++){
+                if (min > array[i]) min = array[i];
+            }
+
+            System.out.printf("Max is %d%n", min);
+            System.out.printf("Max is %d%n", Arrays.stream(array).min().getAsInt());
+
+            System.out.println("=========================================");
         }
     }
 }
