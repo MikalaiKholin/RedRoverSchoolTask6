@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678656035645</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat : task 8 complite">
+      <created>1678656436621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678656436621</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +133,7 @@
     <MESSAGE value="feat : task 5 complite" />
     <MESSAGE value="feat : task 6 complite" />
     <MESSAGE value="feat : task 7 complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : task 7 complite" />
+    <MESSAGE value="feat : task 8 complite" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : task 8 complite" />
   </component>
 </project>

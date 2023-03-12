@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
@@ -86,5 +87,25 @@ public class Main {
         System.out.println();
         System.out.println("=========================================");
 
+        s = "Перевыборы выбранного президента";
+
+        int numberOfE = 0;
+        for (int i = 0; i < s.length(); i++){
+            if (s.charAt(i) == 'е') numberOfE++;
+        }
+
+        System.out.println(numberOfE);
+
+        System.out.println("=========================================");
+
+        s = "Посмотрите как Рите нравится ритм";
+        s = s.toLowerCase(Locale.ROOT);
+
+        for (int i = 0; i < s.length(); i++){
+            if (s.charAt(i) == 'р' && s.charAt(i + 1) == 'и' && s.charAt(i + 2) == 'т') System.out.printf("%d; ", i);
+        }
+
+        System.out.println();
+        System.out.println("=========================================");
     }
 }
