@@ -65,5 +65,16 @@ public class Main {
         System.out.printf("Max is %d%n", max);
 
         System.out.println("=========================================");
+
+        int numberOfElements = 0;
+        for (int i = 0; i < array2.length; i++){
+            for (int j = 0; j < array2[i].length; j++){
+                numberOfElements++;
+            }
+        }
+
+        System.out.printf("Number of elements is %d%n", numberOfElements);
+
+        System.out.println("=========================================");
     }
 }
