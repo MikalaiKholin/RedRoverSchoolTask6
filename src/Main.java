@@ -37,9 +37,20 @@ public class Main {
             int arithmeticMean = sum / array.length;
 
             System.out.printf("Arithmetic mean is %d%n", arithmeticMean);
-
-            System.out.println("=========================================");
         }
         else System.out.println("Array is empty");
+
+        System.out.println("=========================================");
+
+        int[][] array2 = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+
+        sum = 0;
+        for (int i = 0; i < array2.length; i++){
+            for (int j = 0; j < array2[i].length; j++){
+                sum += array2[i][j];
+            }
+        }
+
+        System.out.printf("Sum is %d%n", sum);
     }
 }
